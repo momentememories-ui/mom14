@@ -377,7 +377,7 @@
 
             <div id="successBox" class="success-box">
                 <div class="success-title" id="successTitle">🎉 เย้! เจอแล้ว 1 รูป!</div>
-                <div style="font-size: 13px; color: #2f3542; margin-top: 2px;">ลูกสาวตัวจริงเสียงจริง!</div>
+                <div style="font-size: 13px; color: #2f3542; margin-top: 2px;"></div>
                 <div class="money-text" id="successSubtext">แม่เก่งมาก! หาอีกรูปให้ครบนะ ♥️</div>
                 <button class="next-btn" id="modalActionBtn" onclick="closeModal()">ไปหาอีกรูปต่อเลย 🔍</button>
             </div>
@@ -540,7 +540,7 @@
                 // เช็คว่าหาเจอครบทั้ง 2 รูปแล้วหรือยัง
                 if (foundCorrectCards.size >= TOTAL_CORRECT_CARDS) {
                     document.getElementById('successTitle').innerText = "🎉 ยินดีด้วย! หาเจอครบ 2 รูปแล้ว!";
-                    document.getElementById('successSubtext').innerText = "สุขสันต์วันแม่ค่า<br>รักแม่น้าจุ้บๆ";
+                    document.getElementById('successSubtext').innerText = "สุขสันต์วันแม่ค่า รักแม่น้าจุ้บๆ";
                     btn.innerText = "ไปอ่านคำอวยพรวันแม่ ❤️";
                     btn.onclick = goToWishPage;
                 } else {
